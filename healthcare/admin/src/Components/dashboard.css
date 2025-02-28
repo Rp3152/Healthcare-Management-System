@@ -1,0 +1,40 @@
+#dashboard-page {
+    background-color: #f4f4f8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+#dashboard {
+    display: flex;
+    justify-content: center;
+}
+
+#navbaar {
+    display: flex;
+    line-height: 10px;
+    height: max-content;
+    width: 100%;
+    justify-content: flex-start;
+    background-color: #fff;
+    box-shadow: 7px 6px 14px 0px rgba(0, 0, 0, 0.04);
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-color: #e0e0e0;
+}
+
+#logout-btn {
+    color: rgb(25, 25, 189);
+    line-height: 10px;
+    height: max-content;
+    margin-left: auto;
+    cursor: pointer;
+    padding-right: 30px;
+}
+
+#logout-btn:hover {
+    color: rgb(253, 0, 0);
+}

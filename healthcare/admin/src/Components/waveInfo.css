@@ -1,0 +1,115 @@
+#wave-model-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.41);
+    z-index: 1;
+}
+
+#wave-info-model {
+    z-index: 3;
+    max-height: 554px;
+    position: fixed;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 7px 6px 14px 0px rgba(0, 0, 0, 0.04);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+    max-width: 100%;
+    min-width: 400px;
+    padding-bottom: 20px;
+}
+
+#user-data-container {
+    background: #bea370;
+    height: 110px;
+    border-radius: 11px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 20px;
+}
+#user-image {
+    border-radius: 156px;
+    border: 1.5px solid #fff;
+    background: transparent;
+    width: 110px;
+    height: 110px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#user-data-container h3 {
+    line-height: normal;
+    height: max-content;
+    margin-left: 20px;
+    color: #ffffff;
+    font-size: 21px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#user-data-container svg {
+    margin-left: auto;
+    margin-right: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+#wave-message-div {
+    display: flex;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    padding-top: 0px;
+    border-radius: 10px;
+}
+
+#wave-message {
+    background-color: white;
+    height: auto;
+    width: 50%;
+}
+
+#wave-message h3 {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #3c3d3e;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+#wave-message p {
+    line-break: anywhere;
+    margin-left: 40px;
+    opacity: 0.8;
+    color: #3c3d3e;
+    font-size: 16px;
+    width: 78%;
+}
+
+#image-height-line {
+    background: rgba(77, 113, 127, 0.25);
+    width: 2px;
+    margin-right: 5px;
+}
+
+#image {
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#image img {
+    max-width: 100%;
+    max-height: 225px;
+}

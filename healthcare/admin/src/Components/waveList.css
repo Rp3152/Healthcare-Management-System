@@ -1,0 +1,140 @@
+#wave-page {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e0e0e0;
+    box-shadow: 7px 6px 14px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+#users-heading {
+    margin-bottom: 0px;
+    padding-left: 10px;
+    color: #415272;
+}
+
+#users-heading h6 {
+    text-align: left;
+    line-height: normal;
+    margin-bottom: 0px;
+    opacity: 0.8;
+}
+
+#users-heading h2 {
+    text-align: left;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#search-user {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#search-user input {
+    width: 80%;
+    height: 35px;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 17px;
+    outline-style: none;
+    border: none;
+    border-radius: 10px;
+}
+
+#search-user svg {
+    transform: translateX(-110%);
+}
+
+#users-detail-container {
+    overflow: auto;
+    padding: 10px;
+    max-height: 300px;
+}
+
+#users-detail-container table {
+    background-color: white;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 7px 6px 14px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.users-table-row {
+    box-shadow: 7px 6px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+.users-table-row th,
+.users-table-row td {
+    padding: 10px;
+}
+
+.checkbox {
+    color: green;
+    height: 18px;
+    width: 18px;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    background-color: #ff0000f6;
+    border-radius: 30px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.toggle:after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    top: 1px;
+    left: 1px;
+    transition: all 0.5s;
+}
+
+.checkbox-switch:checked + .toggle::after {
+    left: 20px;
+}
+
+.checkbox-switch:checked + .toggle {
+    background-color: blue;
+}
+
+.checkbox-switch {
+    display: none;
+}
+
+#action {
+    display: flex;
+    gap: 5px;
+    border-radius: 30px;
+}
+
+#action svg {
+    cursor: pointer;
+}
+
+.not-found {
+    text-align: center;
+    color: #415272;
+}
+
+em {
+    cursor: pointer;
+}

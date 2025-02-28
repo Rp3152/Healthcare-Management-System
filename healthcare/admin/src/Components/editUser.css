@@ -1,0 +1,244 @@
+#user-model-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.41);
+    z-index: 1;
+}
+
+#user-info-model {
+    z-index: 3;
+    max-height: 554px;
+    position: fixed;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    box-shadow: 7px 6px 14px 0px rgba(0, 0, 0, 0.04);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+
+#cover-color {
+    width: 100%;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: -30px;
+    text-align: center;
+    box-shadow: 7px 6px 14px 0px rgba(0, 0, 0, 0.04);
+}
+
+#cover-color h1 {
+    color: rgb(207 174 111 / 70%);
+    font-size: 40px;
+    text-align: center;
+}
+
+#cover-color svg {
+    margin-left: auto;
+    margin-right: 5px;
+    display: flex;
+    cursor: pointer;
+    transform: translateY(-280%);
+}
+
+#user-info-container {
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.user-info-wrapper {
+    background-color: #e8e9ef;
+    width: 100%;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+#user-img-container {
+    background: #bea370;
+    display: flex;
+    gap: 20px;
+    height: 110px;
+    border-radius: 11px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+#user-profile-icon {
+    border-radius: 156px;
+    border: 1.5px solid #fff;
+    background: transparent;
+    width: 110px;
+    height: 110px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+#upload-photo-div {
+    color: #ffffff;
+    line-height: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+#upload-photo-div p {
+    opacity: 0.8;
+    font-style: italic;
+    line-height: normal;
+    margin-top: 3px;
+}
+
+#upload-photo-div h3 {
+    margin-bottom: 3px;
+    line-height: normal;
+}
+
+#change-picture {
+    color: #3e5677;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#change-info-label {
+    color: #292929;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#basic-detail-container {
+    display: flex;
+    gap: 15%;
+    height: auto;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 7px 6px 14px 0px rgba(0, 0, 0, 0.04);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#basic-info-form {
+    color: #3c3d3e;
+    font-size: 16px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#basic-info-form label {
+    opacity: 0.8;
+}
+
+#basic-informations {
+    display: flex;
+    width: 100%;
+    gap: 75px;
+}
+
+#basic-detail-label,
+#personal-detail-label {
+    color: #3c3d3e;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+#basic-details-bottom-line {
+    display: block;
+    background-color: #3e5677;
+    width: 98px;
+    height: 4px;
+    margin-top: -10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#personal-details-bottom-line {
+    display: block;
+    background-color: #3e5677;
+    width: 121px;
+    height: 4px;
+    margin-top: -10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#basic-details-1 {
+    width: 100%;
+}
+
+#basic-details-1 input,
+#basic-details-1 select {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(0 0 0 / 30%);
+    border-radius: 5%/30%;
+    outline: none;
+    background: #fff;
+    width: 90%;
+    height: 40px;
+    flex-shrink: 0;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#basic-details-1 select {
+    width: 100%;
+}
+
+#basic-details-1 em {
+    color: #fe0202;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.basic-details {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+#update-button-container {
+    max-width: 140px;
+    display: flex;
+    margin-left: auto;
+    margin-right: 0px;
+    height: 40px;
+    align-items: center;
+    float: right;
+}
+
+#update-profile-btn {
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3e5677;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}

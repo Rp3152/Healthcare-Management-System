@@ -1,0 +1,20 @@
+* {
+    scrollbar-width: thick;
+    scrollbar-color: #dadada rgb(239, 239, 239);
+}
+
+*::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(239, 239, 239);
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #dadada;
+    border-radius: 50px;
+}
